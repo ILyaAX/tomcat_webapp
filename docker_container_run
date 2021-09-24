@@ -1,2 +1,2 @@
-docker build -t tomcat_webapp .
+docker build -t tomcat_webapp https://github.com/ILyaAX/tomcat_webapp.git#main:
 docker run --rm -d --name tomcat_webapp -p 8080:8080 tomcat_webapp
